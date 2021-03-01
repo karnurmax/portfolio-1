@@ -1,9 +1,11 @@
-.main-header {
+.nav {
     display: flex;
-    justify-content: center;
-
-    a {
-        display: block;
-        margin: 15px;
+    flex-direction: row;
+    .navbar {
+        display: inline-flex;
+        list-style-type: none;
+        &>li {
+            margin: 30px;
+        }
     }
 }
