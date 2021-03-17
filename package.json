@@ -23,5 +23,7 @@
     "scripts": {
         "launch": "gulp watch"
     },
-    "dependencies": {}
+    "dependencies": {
+        "bootstrap": "^4.6.0"
+    }
 }
